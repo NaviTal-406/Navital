@@ -5,7 +5,7 @@
     @include('includes.meta')
 
     <!-- title -->
-    <title>Medical | Home</title>
+    <title>Navital | Home</title>
 
     @stack('before-style')
 

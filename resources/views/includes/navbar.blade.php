@@ -102,13 +102,9 @@
                     <li>
                         <a class="font-base text-biru hover:text-blue-900" href="{{ route('home') }}">Home</a>
                     </li>
-
-                    @if (Auth::user())
-                    <li>
+                    {{-- <li>
                         <a class="font-base text-biru hover:text-blue-900" href="{{ route('search') }}">Search</a>
-                    </li>
-                    @endif
-
+                    </li> --}}
                     <li>
                         <a class="font-base text-biru hover:text-blue-900" href="#aboutus">About</a>
                     </li>
@@ -120,10 +116,6 @@
                                 data-fc-placement="bottom">
                                 <div class="flex items-center">
                                     <div class="shrink">
-                                        {{-- <div class="h-8 w-8 me-2">
-                                            <img src="assets/images/avatars/img-6.jpg"
-                                                class="avatar h-full w-full rounded-full me-2" alt="photo">
-                                        </div> --}}
                                     </div>
                                     <div class="hidden lg:block grow ms-1 leading-normal text-biru">
                                         <span class="block text-sm font-medium">{{ Auth::user()->name  }}</span>
@@ -176,14 +168,14 @@
                     @else
                         <li class="nav-item">
                             {{-- <button class="flex items-center"> --}}
-                            <a href="{{ route('register') }}"
-                                class="border border-ijo text-ijo rounded-md hover:bg-ijo hover:text-white hover:shadow-lg hover:shadow-ijo/30 focus:shadow-none focus:outline focus:outline-ijo/40 transition-all duration-500 py-2 px-4">Register</a>
+                            {{-- <a href="{{ route('register') }}"
+                                class="border border-biru text-biru rounded-md hover:bg-blue-800 hover:text-white hover:shadow-lg hover:shadow-biru/30 focus:shadow-none focus:outline focus:outline-biru/40 transition-all duration-200 py-2 px-4">Register</a> --}}
                             {{-- </button> --}}
 
                         </li>
                         <li class="nav-item">
                             <a href="{{ route('login') }}"
-                                class="border outline-ijo outline-2 bg-ijo text-white hover:bg-white hover:text-ijo hover:shadow-md hover:shadow-ijo/30 hover:border-ijo focus:shadow-none focus:outline focus:outline-ijo/40 transition-all duration-500 px-4 py-2 rounded inline-flex items-center text-sm">Login</a>
+                                class="border outline-biru outline-2 bg-biru text-white hover:bg-white hover:text-biru hover:shadow-md hover:shadow-biru/30 hover:border-biru focus:shadow-none focus:outline focus:outline-biru/40 transition-all duration-200 px-4 py-2 rounded inline-flex items-center text-sm">Login</a>
                         </li>
                     @endif
 

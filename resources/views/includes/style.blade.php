@@ -11,7 +11,7 @@
 
  {{-- <link href="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.css"> --}}
 
- <link rel="shortcut icon" href="/assets/images/logos3.png">
+ <link rel="shortcut icon" href="/assets/images/LogoNavital_head.png">
 
  <!--Swiper slider css-->
  <link href="/assets/libs/swiper/swiper-bundle.min.css" rel="stylesheet" type="text/css">

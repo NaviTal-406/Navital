@@ -23,12 +23,10 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', [HomeController::class, 'index'])->name('home');
 Route::get('/search', [SearchController::class, 'search'])->name('search');
 Route::get('/detail/{id}', [SearchController::class, 'detail'])->name('detail');
-
+Route::get('/search', [SearchController::class, 'search'])->name('search');
 
 Route::group(['middleware' => ['auth:sanctum', 'verified']], function () {
-  
-    Route::get('/search', [SearchController::class, 'search'])->name('search');
-      
+
         Route::name('dashboard.')->prefix('dashboard')->group(function () {
             Route::middleware(['auth', 'admin'])->group(function () {
                 Route::get('/', [DashboardController::class, 'index'])->name('dashboard');

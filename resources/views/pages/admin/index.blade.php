@@ -223,23 +223,4 @@
 @endpush
 
 @push('after-script')
-    {{-- <script>
-        if (navigator.geolocation) {
-            navigator.geolocation.getCurrentPosition(function(position) {
-                var latitude = position.coords.latitude;
-                var longitude = position.coords.longitude;
-
-                document.getElementById('latitude').value = latitude;
-                document.getElementById('longitude').value = longitude;
-
-                document.getElementById('serviceLatitude').value = latitude;
-                document.getElementById('serviceLongitude').value = longitude;
-
-            }, function(error) {
-                console.error('Error getting location:', error);
-            });
-        } else {
-            console.error('Geolocation is not supported by this browser.');
-        }
-    </script> --}}
 @endpush
