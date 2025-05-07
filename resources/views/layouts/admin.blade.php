@@ -70,7 +70,7 @@
                                     <div class="shrink">
                                     </div>
                                     <div class="hidden lg:block grow ms-1 leading-normal">
-                                        <span class="block text-sm text-biru font-medium hover:text-biru">{{  Auth::user()->name  }}</span>
+                                        <span class="block text-sm text-ijo font-medium hover:text-ijo">{{  Auth::user()->name  }}</span>
                                         <span class="block text-gray-400 text-xs">{{ Auth::user()->roles  }}</span>
                                     </div>
                                 </div>
@@ -80,8 +80,8 @@
                                 class="hidden opacity-0 mt-4 fc-dropdown-open:opacity-100 fc-dropdown-open:translate-y-0 translate-y-3 origin-center transition-all bg-white rounded-lg shadow-lg border p-2 w-48 space-y-1.5">
 
                                 <!-- Dropdown item -->
-                                <div class="nav-item rounded hover:bg-blue-50 transition-all">
-                                    <a class="flex items-center text-black hover:text-biru !p-2" href="{{ route('dashboard.dashboard') }}">
+                                <div class="nav-item rounded hover:bg-teal-50 transition-all">
+                                    <a class="flex items-center text-black hover:text-ijo !p-2" href="{{ route('dashboard.dashboard') }}">
                                         <svg class="h-4 w-4 me-2" xmlns="http://www.w3.org/2000/svg"
                                             viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                             stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
@@ -97,11 +97,11 @@
                                 <hr class="-mx-2 my-2">
 
                                 <!-- Dropdown item -->
-                                <div class="nav-item rounded hover:bg-blue-50 transition-all">
+                                <div class="nav-item rounded hover:bg-teal-50 transition-all">
                                     <form method="POST" action="{{ route('logout') }}">
                                         @csrf
 
-                                        <a class="text-black !p-2 flex items-center hover:text-biru" href="{{ route('logout') }}"
+                                        <a class="text-black !p-2 flex items-center hover:text-ijo" href="{{ route('logout') }}"
                                             onclick="event.preventDefault(); this.closest('form').submit();">
                                             <svg class="h-4 w-4 me-2" xmlns="http://www.w3.org/2000/svg"
                                                 viewBox="0 0 24 24" fill="none" stroke="currentColor"
