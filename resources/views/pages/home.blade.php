@@ -15,11 +15,11 @@
                 <div class="relative overflow-hidden">
                     <div class="max-w-[85rem] mx-auto px-4 py-10">
                       <div class="text-center">
-                        <h1 class="text-2xl sm:text-4xl font-bold text-[#155AC1]">
+                        <h1 class="text-2xl sm:text-4xl font-bold text-biru">
                           Find Hospital in Bandung Raya
                         </h1>
                 
-                        <p class="text-2xl sm:text-4xl font-bold mt-3 text-[#0000FF]">
+                        <p class="text-2xl sm:text-4xl font-bold mt-3 text-biru">
                           With Detailed Information.
                         </p>
                 
