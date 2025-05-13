@@ -27,7 +27,7 @@
                           <!-- Form -->
                           {{-- <form action="{{ route('search') }}" method="GET"> --}}
                             @csrf
-                            <div class="relative z-10 flex space-x-3 p-3">
+                            <div class="relative z-10 flex items-center space-x-3 p-3">
                               <div class="flex-[1_0_0%]">
                                 <label for="keyword" class="block text-sm text-gray-700 font-medium border-blue-600"><span class="sr-only">Search article</span></label>
                                 <input type="text" name="keyword" id="keyword" class="py-2.5 px-4 block w-full border-2 rounded-lg border-blue-600 placeholder:text-gray-500 text-gray-500" placeholder="Cari Rumah Sakit">
