@@ -40,7 +40,7 @@
                                             class="flex flex-row lg:flex-col gap-2 w-auto lg:w-full bg-teal-600 p-1.5 rounded-md lg:justify-start shadow-lg"
                                             role="tablist">
                                             <button
-                                                class="fc-tab-active:bg-white font-medium text-white hover:bg-white hover:text-ijo fc-tab-active:text-ijo text-start py-2 px-4 rounded bg-transparent transition-all active"
+                                                class="fc-tab-active:bg-white font-medium text-v hover:bg-white text-white  hover:text fc-tab-active:text-ijo text-start py-2 px-4 rounded bg-transparent transition-all active"
                                                 data-fc-target="#account" type="button">
                                                 List category
                                             </button>
@@ -54,7 +54,7 @@
                                     <!-- menu end -->
                                     <div class="lg:col-span-3 transition-all px-4 h-full">
                                         <div id="account" class="min-h-[650px]">
-                                            <h4 class="text-base font-bold text-ijo">List Category</h4>
+                                            <h4 class="text-base font-bold text-biru">List Category</h4>
 
                                             <div class="mx-auto mt-5">
 
@@ -67,7 +67,7 @@
                                                                     <thead class="bg-teal-600">
                                                                         <tr>
                                                                             <th scope="col"
-                                                                                class="py-3 px-6 text-xs font-bold tracking-wider text-left text-white uppercase">
+                                                                                class="py-3 px-6 text-xs font-bold tracking-wider text-left text-white uppercase ">
                                                                                 Category Name
                                                                             </th>
                                                                             <th scope="col" class="p-4">

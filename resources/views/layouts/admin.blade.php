@@ -55,6 +55,48 @@
                             </a>
                         </li>
 
+                        <li class="nav-item pe-4">
+                            <a class="nav-link flex items-center font-semibold py-2 px-4 lg:py-0 text-gray-700 hover:text-ijo transition-all"
+                                href="{{ route('dashboard.category.index') }}">
+                                <span class="shrink-0 me-2">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 32 32">
+                                        <path fill="currentColor" d="M28 10H4a2.002 2.002 0 0 1-2-2V4a2.002 2.002 0 0 1 2-2h24a2.002 2.002 0 0 1 2 2v4a2.002 2.002 0 0 1-2 2M4 4v4h24V4zm24 26H4a2.002 2.002 0 0 1-2-2v-4a2.002 2.002 0 0 1 2-2h24a2.002 2.002 0 0 1 2 2v4a2.002 2.002 0 0 1-2 2M4 24v4h24v-4zm24-4H4a2.002 2.002 0 0 1-2-2v-4a2.002 2.002 0 0 1 2-2h24a2.002 2.002 0 0 1 2 2v4a2.002 2.002 0 0 1-2 2M4 14v4h24v-4z"/>
+                                    </svg>
+                                </span>
+                                <span class="grow">Category</span>
+                            </a>
+                        </li>
+                        
+                        <li class="nav-item pe-4">
+                            <a class="nav-link flex items-center font-semibold py-2 px-4 lg:py-0 text-gray-700 hover:text-ijo transition-all"
+                                href="{{ route('dashboard.hospital.index') }}">
+                                <span class="shrink-0 me-2">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 48 48">
+                                        <g fill="none">
+                                            <path stroke="currentColor" stroke-linejoin="round" stroke-width="4" d="M11 26v18h26V26L24 13z"/>
+                                            <path fill="currentColor" d="M3.586 21.586a2 2 0 1 0 2.828 2.828zM24 4l1.414-1.414a2 2 0 0 0-2.828 0zm17.586 20.414a2 2 0 1 0 2.828-2.828zm-35.172 0l19-19l-2.828-2.828l-19 19zm16.172-19l19 19l2.828-2.828l-19-19z"/>
+                                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="4" d="M19 31h10m-5-5v10"/>
+                                        </g>
+                                    </svg>
+                                </span>
+                                <span class="grow">Health Facility</span>
+                            </a>
+                        </li>
+                        <li class="nav-item pe-4">
+                            <a class="nav-link flex items-center font-semibold py-2 px-4 lg:py-0 text-gray-700 hover:text-ijo transition-all"
+                                href="{{ route('dashboard.user.index') }}">
+                                <span class="shrink-0 me-2">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" >
+                                        <g fill="none">
+                                            <path d="M24 0v24H0V0zM12.594 23.258l-.012.002l-.071.035l-.02.004l-.014-.004l-.071-.036c-.01-.003-.019 0-.024.006l-.004.01l-.017.428l.005.02l.01.013l.104.074l.015.004l.012-.004l.104-.074l.012-.016l.004-.017l-.017-.427c-.002-.01-.009-.017-.016-.018m.264-.113l-.014.002l-.184.093l-.01.01l-.003.011l.018.43l.005.012l.008.008l.201.092c.012.004.023 0 .029-.008l.004-.014l-.034-.614c-.003-.012-.01-.02-.02-.022m-.715.002a.023.023 0 0 0-.027.006l-.006.014l-.034.614c0 .012.007.02.017.024l.015-.002l.201-.093l.01-.008l.003-.011l.018-.43l-.003-.012l-.01-.01z"/>
+                                            <path fill="currentColor" d="M6 7a5 5 0 1 1 10 0A5 5 0 0 1 6 7m-1.178 7.672C6.425 13.694 8.605 13 11 13c.447 0 .887.024 1.316.07a1 1 0 0 1 .72 1.557A5.968 5.968 0 0 0 12 18c0 .92.207 1.79.575 2.567a1 1 0 0 1-.89 1.428L11 22c-2.229 0-4.335-.14-5.913-.558c-.785-.208-1.524-.506-2.084-.956C2.41 20.01 2 19.345 2 18.5c0-.787.358-1.523.844-2.139c.494-.625 1.177-1.2 1.978-1.69ZM16 18a1 1 0 0 1 1-1h.99c.558 0 1.01.452 1.01 1.01v2.124A1 1 0 0 1 18.5 22h-.49A1.01 1.01 0 0 1 17 20.99V19a1 1 0 0 1-1-1m2-4a1 1 0 0 0-.117 1.993l.119.007a1 1 0 0 0 .117-1.993z"/>
+                                        </g>
+                                    </svg>
+                                </span>
+                                <span class="grow">User</span>
+                            </a>
+                        </li>
+
                     </ul>
                 </div>
 
